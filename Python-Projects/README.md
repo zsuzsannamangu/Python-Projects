@@ -4,7 +4,7 @@ This repository is for my Tech Academy projects that use Python.
 ## Technologies used
 Python, Django
 
-# Webpage Generator Project
+# [Webpage Generator Project] (https://github.com/zsuzsannamangu/Python-Projects/tree/master/Python-Projects/WebPage_Generator)
 This program can automatically create a basic HTML web page and display the text that the user inputted into the text field.
 I used Python and Tkinter for this project.
 
