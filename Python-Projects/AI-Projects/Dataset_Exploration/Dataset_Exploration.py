@@ -18,7 +18,7 @@ import tarfile #“tarfile” is a module in Python that provides support for re
 import matplotlib.pyplot as plt
 
 #Extract the dataset using the tarfile module by writing this code:
-tar = tarfile.open(r"/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Dataset_Exploration/cifar-10-python.tar.gz")
+tar = tarfile.open(r"/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Dataset_Exploration/cifar-10-python.tar.gz")
 tar.extractall()
 tar.close() #This line closes the tar file after extraction.
 

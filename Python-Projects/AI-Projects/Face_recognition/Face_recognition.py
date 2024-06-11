@@ -12,12 +12,12 @@ from scipy.spatial import distance as dist
 
 #Load the pre-trained models for face detection and recognition
 #Using OpenCV's pre-trained Haar cascade classifier and a face recognition model (face_recognizer) using the dlib library
-face_detector = cv2.CascadeClassifier("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Face_recognition/haarcascade_frontalface_default.xml")
-face_recognizer = dlib.face_recognition_model_v1("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Face_recognition/dlib_face_recognition_resnet_model_v1.dat")
+face_detector = cv2.CascadeClassifier("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Face_recognition/haarcascade_frontalface_default.xml")
+face_recognizer = dlib.face_recognition_model_v1("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Face_recognition/dlib_face_recognition_resnet_model_v1.dat")
 
 #Load sample images for testing the facial recognition system
-img1 = cv2.imread('/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Face_recognition/face1.jpg')
-img2 = cv2.imread('/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Face_recognition/face2.jpg')
+img1 = cv2.imread('/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Face_recognition/face1.jpg')
+img2 = cv2.imread('/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Face_recognition/face2.jpg')
 
 # Detect faces and get face encodings
 def get_face_encodings(image):

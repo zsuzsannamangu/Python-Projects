@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # Load the dataset from CSV
-file_path = '/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Supervised_MachineLearning/exampledataset1.csv'
+file_path = '/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Supervised_MachineLearning/exampledataset1.csv'
 data = pd.read_csv(file_path)
 
 # Split the dataset into features (X) and target (y)

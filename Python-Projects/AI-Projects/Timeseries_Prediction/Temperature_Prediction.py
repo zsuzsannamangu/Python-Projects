@@ -15,7 +15,7 @@ import plotly.express as px
 from sklearn.metrics import mean_absolute_error
 
 #Load dataset (df represents a DataFrame object)
-df = pd.read_csv(r"/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Timeseries_Prediction/daily_temperature.csv")
+df = pd.read_csv(r"/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Timeseries_Prediction/daily_temperature.csv")
 
 #Convert the Date column to datatime and sort the data
 df['Date'] = pd.to_datetime(df['Date'])

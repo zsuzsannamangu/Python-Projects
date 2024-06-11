@@ -4,7 +4,7 @@ from scipy.stats import skew
 import numpy as np
 
 #Load the dataset
-df = pd.read_csv("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/Data_Preprocessing/example_dataset.csv")
+df = pd.read_csv("/Users/Zsuzsi/Documents/GitHub/Python-Projects/Python-Projects/AI-Projects/Data_Preprocessing/example_dataset.csv")
 
 #Perform data preprocessing
 
