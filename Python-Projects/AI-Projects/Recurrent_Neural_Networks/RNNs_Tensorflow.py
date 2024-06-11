@@ -1,4 +1,4 @@
-#Implement an RNN for a time series prediction using TensorFlow
+#Implement Recurrent Neural Networks for time series prediction using TensorFlow
 
 import numpy as np
 import tensorflow as tf
@@ -21,11 +21,11 @@ for i in range(len(sin_wave) - seq_length):
 X = np.array(X)
 y = np.array(y)
 
-# Reshape the data for RNN input
+# Reshape the data for RNNs input
 X = X.reshape(-1, seq_length, 1)
 y = y.reshape(-1, 1)
 
-# Define the RNN model
+# Define the RNNs model
 model = tf.keras.Sequential([
     tf.keras.layers.SimpleRNN(64, input_shape=(seq_length, 1), activation='relu'),
     tf.keras.layers.Dense(1)

@@ -1,6 +1,6 @@
 """Time series prediction assignment: predict and visualize daily temperatures
 
-Time seres prediction involves forecasting future values based on historical data 
+Time series prediction involves forecasting future values based on historical data 
 patterns by identifying trends, reoccurance, regularity, and other patterns.
 """
 
