@@ -4,7 +4,7 @@ id,text,sentiment,age,name,profession,gender
 3,The service was terrible.,Negative,40,Michael,Salesperson,Male
 4,The food tasted delicious.,Positive,27,Sophia,Chef,Female
 5,I would not recommend this hotel.,Negative,35,Ethan,Hotel Manager,Male
-6,The customer support was very helpful.,Positive,29,Olivia,Customer Support,Female
+6,The customer support was not helpful.,Negative,29,Olivia,Customer Support,Female
 7,The quality of the product was disappointing.,Negative,45,Patrick,Quality Control,Male
 8,This book is a must-read.,Positive,33,Maria,Writer,Female
 9,I had a horrible experience with their service.,Negative,38,Liam,Customer Support,Male
